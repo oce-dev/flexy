@@ -1,0 +1,31 @@
+body {
+  background: $fl-color-grey-0;
+  color: $fl-color-white;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #brand {
+    width: 90px;
+    height: 23px;
+    @extend .mx-auto;
+    @extend .my-4;
+    @include image-2x(logo, png, 90px, 23px);
+
+    span {
+      display: none;
+    }
+
+  }
+
+  .container {
+
+    &.primary {
+      padding: 0;
+    }
+  }
+
+}

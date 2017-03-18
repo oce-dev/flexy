@@ -1,0 +1,28 @@
+.fl-weekly-score {
+  text-align: center;
+
+  .statistics {
+    @extend .d-flex;
+    @extend .justify-content-around;
+    @extend .flex-sm-column;
+
+    background: $fl-color-blue;
+
+    li {
+      padding: 15px 0;
+
+      i {
+        display: block;
+        margin-bottom: 2px;
+        font-size: 30px;
+      }
+
+      + li {
+
+      }
+
+    }
+
+  }
+
+}
